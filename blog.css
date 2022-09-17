@@ -1,0 +1,32 @@
+.do{
+    margin-top: -250px;
+    margin-left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.ko{
+    margin-left: 550px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col-md-6{
+    background-color: black;
+    color: white
+}
+body{
+    background-color: black;
+}
+.a1{
+    color: white;
+    margin-left: 550px;
+}
+.mb-3{
+    color: bisque;
+}
+.b1{
+    margin-top: 10px;
+    margin-left:600px;
+}
+.no{
+    margin-left:650px ;
+}
