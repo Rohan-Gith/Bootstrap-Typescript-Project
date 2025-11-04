@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cosmic Guidance - Astrology for ₹5</title>
+    <meta
+      name="description"
+      content="Get personalised astrology insights, daily horoscopes, and remedies for just ₹5. Ready-to-use website template for astrology consultants."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero position-relative text-white">
+      <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="#">Cosmic Guidance</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#horoscope">Horoscope</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+              <li class="nav-item ms-lg-3">
+                <a class="btn btn-light text-primary" href="#contact">Book Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container hero-content py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <p class="lead text-uppercase mb-2">Personal Astrology On-Demand</p>
+            <h1 class="display-4 fw-bold mb-4">
+              Unlock your cosmic blueprint for only ₹5 per session
+            </h1>
+            <p class="mb-4">
+              Launch your astrology consultation business instantly with this ready-to-use website. Provide accurate daily predictions, personalised remedies, and 24x7 WhatsApp consultations without any technical setup.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-primary btn-lg" href="#pricing">View ₹5 Offer</a>
+              <a class="btn btn-outline-light btn-lg" href="#demo">See Demo Flow</a>
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 mt-lg-0">
+            <div class="astro-card p-4 rounded-4">
+              <h2 class="h4 fw-semibold mb-3">Quick Booking Widget</h2>
+              <form id="quickBookingForm" class="row g-3">
+                <div class="col-12">
+                  <label class="form-label" for="name">Name</label>
+                  <input class="form-control" id="name" name="name" type="text" placeholder="Enter full name" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="birth-details">Birth Details</label>
+                  <input
+                    class="form-control"
+                    id="birth-details"
+                    name="birth"
+                    type="text"
+                    placeholder="DD/MM/YYYY · City"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="focus-area">Focus Area</label>
+                  <select class="form-select" id="focus-area" name="focus">
+                    <option value="general">General Guidance</option>
+                    <option value="career">Career & Finance</option>
+                    <option value="love">Relationships</option>
+                    <option value="health">Health & Wellness</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary w-100" type="submit">Reserve ₹5 Slot</button>
+                </div>
+                <div class="col-12">
+                  <div class="upi-badge text-center">
+                    <span class="small">Pay securely via UPI · Instant confirmation</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+    </header>
+
+    <main>
+      <section class="py-5 bg-body" id="demo">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+              <h2 class="fw-semibold mb-3">Deliver premium astrology in three simple steps</h2>
+              <p class="text-muted mb-4">
+                This template comes with all the touchpoints your clients expect. Simply plug in your details, share your payment QR, and start earning with bite-sized consultations worth ₹5.
+              </p>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="timeline-icon">1</span>
+                  <div>
+                    <h3 class="h5">Client submits birth details</h3>
+                    <p class="mb-0">Collect essentials via the ready-made booking widget or share the embedded Google Form link.</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <span class="timeline-icon">2</span>
+                  <div>
+                    <h3 class="h5">Receive ₹5 UPI payment</h3>
+                    <p class="mb-0">Built-in payment CTA opens a pre-filled UPI intent link. Replace the UPI ID with your own and you are live.</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <span class="timeline-icon">3</span>
+                  <div>
+                    <h3 class="h5">Share personalised horoscope PDF</h3>
+                    <p class="mb-0">Use the automated horoscope generator below for quick insights or integrate your existing reports.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="demo-card p-4 p-lg-5 rounded-4 h-100">
+                <h3 class="h5 mb-3">What you get</h3>
+                <ul class="list-unstyled">
+                  <li class="d-flex mb-3">
+                    <span class="check-icon me-3">✔</span>
+                    <span>Bootstrap 5 responsive layout optimised for mobile bookings</span>
+                  </li>
+                  <li class="d-flex mb-3">
+                    <span class="check-icon me-3">✔</span>
+                    <span>Daily horoscope generator with instant copy-to-clipboard option</span>
+                  </li>
+                  <li class="d-flex mb-3">
+                    <span class="check-icon me-3">✔</span>
+                    <span>Trust-building testimonials, FAQs, and astrologer introduction block</span>
+                  </li>
+                  <li class="d-flex mb-3">
+                    <span class="check-icon me-3">✔</span>
+                    <span>WhatsApp CTA, UPI deep links, and lead nurturing automation tips</span>
+                  </li>
+                </ul>
+                <a class="btn btn-outline-primary" href="#contact">Customize &amp; Launch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" id="services">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span class="badge bg-light text-primary rounded-pill px-3 py-2">Core Offerings</span>
+            <h2 class="fw-semibold mt-3">Everything an astrologer needs in one place</h2>
+            <p class="text-muted">
+              Convert casual visitors into delighted clients with curated services and ready-made marketing sections.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="service-card h-100 p-4 text-center">
+                <div class="icon-circle mb-3">🌟</div>
+                <h3 class="h5">Micro Horoscope</h3>
+                <p class="text-muted">
+                  6-line action plan delivered in under 5 minutes for fast-moving clients.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="service-card h-100 p-4 text-center">
+                <div class="icon-circle mb-3">💼</div>
+                <h3 class="h5">Career Snapshot</h3>
+                <p class="text-muted">
+                  Focus on jobs, exams, and promotions with tailored gemstone &amp; mantra suggestions.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="service-card h-100 p-4 text-center">
+                <div class="icon-circle mb-3">💖</div>
+                <h3 class="h5">Relationship Pulse</h3>
+                <p class="text-muted">
+                  Give couples clarity on compatibility, upcoming milestones, and remedies.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="service-card h-100 p-4 text-center">
+                <div class="icon-circle mb-3">🧘</div>
+                <h3 class="h5">Wellness Guard</h3>
+                <p class="text-muted">
+                  Keep clients centred with yoga, pranayama, and diet suggestions based on their dosha balance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-body" id="horoscope">
+        <div class="container">
+          <div class="row align-items-start g-5">
+            <div class="col-lg-6">
+              <h2 class="fw-semibold mb-3">Try the interactive horoscope generator</h2>
+              <p class="text-muted mb-4">
+                Select a zodiac sign and focus area to produce instant insights. Perfect for creating teaser predictions before the full consultation.
+              </p>
+              <form id="horoscopeForm" class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="zodiac">Zodiac Sign</label>
+                  <select class="form-select" id="zodiac" required>
+                    <option value="" selected disabled>Select sign</option>
+                    <option value="aries">Aries</option>
+                    <option value="taurus">Taurus</option>
+                    <option value="gemini">Gemini</option>
+                    <option value="cancer">Cancer</option>
+                    <option value="leo">Leo</option>
+                    <option value="virgo">Virgo</option>
+                    <option value="libra">Libra</option>
+                    <option value="scorpio">Scorpio</option>
+                    <option value="sagittarius">Sagittarius</option>
+                    <option value="capricorn">Capricorn</option>
+                    <option value="aquarius">Aquarius</option>
+                    <option value="pisces">Pisces</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="focus">Focus Area</label>
+                  <select class="form-select" id="focus" required>
+                    <option value="general">General</option>
+                    <option value="love">Love</option>
+                    <option value="career">Career</option>
+                    <option value="health">Health</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="tone">Tone</label>
+                  <select class="form-select" id="tone">
+                    <option value="balanced" selected>Balanced</option>
+                    <option value="motivational">Motivational</option>
+                    <option value="cautious">Cautious</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Generate Insight</button>
+                  <button class="btn btn-outline-secondary ms-2" id="copyHoroscope" type="button" disabled>Copy Insight</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6">
+              <div class="horoscope-output p-4 rounded-4 h-100">
+                <h3 class="h5">Preview</h3>
+                <p class="text-muted" id="horoscopePreview">
+                  Choose a sign and focus area to preview the ready-made message you can share with your client.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" id="pricing">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-2">Launch Offer</span>
+              <h2 class="fw-semibold mt-3">Flat ₹5 astrology micro-session</h2>
+              <p class="text-muted">
+                Perfect for lead generation campaigns, Instagram reels, and WhatsApp communities. Deliver a personalised voice note or PDF within minutes.
+              </p>
+            </div>
+          </div>
+          <div class="row g-4 mt-4">
+            <div class="col-lg-4">
+              <div class="pricing-card p-4 h-100 text-center">
+                <h3 class="h4">Starter Aura</h3>
+                <p class="display-5 fw-bold text-primary">₹5</p>
+                <p class="text-muted">Per personalised micro reading</p>
+                <ul class="list-unstyled text-start mt-4">
+                  <li>✔ 1 follow-up question</li>
+                  <li>✔ Remedy recommendation</li>
+                  <li>✔ WhatsApp delivery in 4 hours</li>
+                  <li>✔ Shareable payment link</li>
+                </ul>
+                <a
+                  class="btn btn-primary mt-4"
+                  href="upi://pay?pa=astroguru@upi&pn=Cosmic%20Guidance&am=5&cu=INR"
+                >Pay ₹5 via UPI</a>
+                <p class="small text-muted mt-3">
+                  Replace the UPI ID with your own before publishing. Works with any UPI app.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="pricing-card p-4 h-100 text-center">
+                <h3 class="h4">Bulk Booster</h3>
+                <p class="display-6 fw-semibold">₹49</p>
+                <p class="text-muted">12-session credit pack</p>
+                <ul class="list-unstyled text-start mt-4">
+                  <li>✔ ₹5 pricing locked for loyal clients</li>
+                  <li>✔ Auto-reminder templates</li>
+                  <li>✔ Google Sheet tracker</li>
+                </ul>
+                <a class="btn btn-outline-primary mt-4" href="#contact">Request Invoice</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="pricing-card p-4 h-100 text-center">
+                <h3 class="h4">Partnerships</h3>
+                <p class="display-6 fw-semibold">Custom</p>
+                <p class="text-muted">For influencers &amp; communities</p>
+                <ul class="list-unstyled text-start mt-4">
+                  <li>✔ Affiliate dashboard access</li>
+                  <li>✔ Co-branded landing pages</li>
+                  <li>✔ Weekly performance review</li>
+                </ul>
+                <a class="btn btn-outline-primary mt-4" href="https://wa.me/919999999999">Discuss on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-body" id="testimonials">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span class="badge bg-light text-primary rounded-pill px-3 py-2">Client Love</span>
+            <h2 class="fw-semibold mt-3">Build trust with real stories</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="testimonial-card p-4 h-100">
+                <p class="mb-3">
+                  “The ₹5 offer helped me close 30+ paid consultations in the first weekend. The automated responses saved hours!”
+                </p>
+                <h3 class="h6 mb-0">Anaya, Tarot Reader</h3>
+                <span class="small text-muted">Mumbai</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card p-4 h-100">
+                <p class="mb-3">
+                  “Clients love the instant horoscope preview. I simply copy, customise, and share on WhatsApp.”
+                </p>
+                <h3 class="h6 mb-0">Rohit, Vedic Astrologer</h3>
+                <span class="small text-muted">Pune</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card p-4 h-100">
+                <p class="mb-3">
+                  “I embedded my Calendly link and replaced the UPI ID. The site was live in less than 15 minutes.”
+                </p>
+                <h3 class="h6 mb-0">Divya, Numerologist</h3>
+                <span class="small text-muted">Delhi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" id="faq">
+        <div class="container">
+          <div class="row g-5 align-items-start">
+            <div class="col-lg-5">
+              <h2 class="fw-semibold mb-3">FAQs for your potential clients</h2>
+              <p class="text-muted">
+                Pre-answered questions reduce drop-offs and help new visitors trust your process.
+              </p>
+            </div>
+            <div class="col-lg-7">
+              <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faqOneHeading">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqOne"
+                      aria-expanded="true"
+                      aria-controls="faqOne"
+                    >
+                      What do I receive in the ₹5 consultation?
+                    </button>
+                  </h2>
+                  <div
+                    id="faqOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="faqOneHeading"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      You get a personalised 6-line reading covering your selected focus area, plus a suggested remedy and crystal recommendation.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faqTwoHeading">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqTwo"
+                      aria-expanded="false"
+                      aria-controls="faqTwo"
+                    >
+                      How quickly will I receive my prediction?
+                    </button>
+                  </h2>
+                  <div
+                    id="faqTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqTwoHeading"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      Micro readings are delivered in under four hours. Priority delivery (under 30 minutes) is available for returning clients.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faqThreeHeading">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqThree"
+                      aria-expanded="false"
+                      aria-controls="faqThree"
+                    >
+                      Can I upgrade to a detailed session?
+                    </button>
+                  </h2>
+                  <div
+                    id="faqThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqThreeHeading"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      Absolutely! Apply the ₹5 payment as credit when booking a 45-minute detailed consultation worth ₹799.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-gradient text-white" id="contact">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5">
+              <h2 class="fw-semibold mb-3">Ready to launch your astrology funnel?</h2>
+              <p class="text-light">
+                Replace the contact details below with your own information. Embed this section on Linktree, Instagram bio, or landing pages to start receiving ₹5 bookings immediately.
+              </p>
+              <ul class="list-unstyled">
+                <li class="mb-2">📱 WhatsApp: <a class="link-light" href="https://wa.me/919999999999">+91 99999 99999</a></li>
+                <li class="mb-2">📧 Email: <a class="link-light" href="mailto:hello@cosmicguidance.in">hello@cosmicguidance.in</a></li>
+                <li class="mb-2">📍 Based in: Bengaluru · Consultations Worldwide</li>
+              </ul>
+            </div>
+            <div class="col-lg-7">
+              <div class="contact-card p-4 rounded-4">
+                <h3 class="h5 mb-3">Collect leads automatically</h3>
+                <form id="contactForm" class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label" for="contactName">Full Name</label>
+                    <input class="form-control" id="contactName" name="contactName" type="text" placeholder="Client name" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" for="contactPhone">Phone / WhatsApp</label>
+                    <input class="form-control" id="contactPhone" name="contactPhone" type="tel" placeholder="10-digit mobile" required />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="contactMessage">Query</label>
+                    <textarea class="form-control" id="contactMessage" name="contactMessage" rows="3" placeholder="Share your question"></textarea>
+                  </div>
+                  <div class="col-12 d-flex flex-wrap gap-3">
+                    <button class="btn btn-light text-primary" type="submit">Send Request</button>
+                    <a class="btn btn-outline-light" href="https://wa.me/919999999999?text=I%20want%20a%20%20%F0%9F%8C%8C%20astrology%20reading">Ping on WhatsApp</a>
+                  </div>
+                  <p class="small text-muted mt-2 mb-0">
+                    Tip: connect this form to Google Sheets or Notion using Zapier for effortless lead tracking.
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 bg-dark text-white">
+      <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
+        <div>
+          <span class="fw-semibold">© <span id="currentYear"></span> Cosmic Guidance.</span>
+          <span class="text-white-50 ms-2">Crafted for modern astrologers &amp; tarot readers.</span>
+        </div>
+        <div class="d-flex gap-3">
+          <a class="link-light" href="#privacy">Privacy</a>
+          <a class="link-light" href="#terms">Terms</a>
+          <a class="link-light" href="https://instagram.com">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
